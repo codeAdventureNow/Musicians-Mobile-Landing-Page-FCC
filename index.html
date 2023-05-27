@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Product Landing Page</title>
+  </head>
+  <body>
+ 
+        <header id="header">
+        <!-- Logo -->
+            <img width="200" src='assets/logo.jpg' ="header-img" />
+            <nav id="nav-bar">
+                <ul>
+                <!--TODO When you click a .nav-link button in the nav element, you are taken to the corresponding section of the landing page -->
+                <li class="nav-link"><a>Our Offer</a></li>
+                <li class="nav-link"><a>Watch Us</a></li>
+                <li class="nav-link"><a>Pricing</a></li>
+                </ul>
+            </nav>
+        </header>
+    <div id="wrapper">
+        <form action="https://www.freecodecamp.com/email-submit" method="post">
+            <input required id="email" type="email" placeholder="Enter your email" />
+            <input type="submit" id="submit" />
+        </form>
+        
+        <section>
+            <video id="video" width="320" height="240">
+                <source src="https://youtu.be/1YPJ7pvrvtU" />
+            </video>
+        </section>
+    </div>
+  </body>
+</html>
