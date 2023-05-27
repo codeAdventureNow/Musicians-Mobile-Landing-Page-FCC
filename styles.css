@@ -1,24 +1,29 @@
 header {
+  width: 100%;
+  top: 0;
+  left: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   position: fixed;
-  width: 100%;
-  top: 0;
-  left: 0;
+
   overflow: hidden;
   background-color: white;
 }
 
 ul {
+  margin: 0 auto;
   list-style: none;
 }
 
 li {
   margin: 15px 0;
+}
 
-  color: grey
+a {
+  color: grey;
+  text-decoration: none;
 }
 
 #wrapper {
@@ -27,39 +32,51 @@ li {
   align-items: center;
   justify-content: center;
   margin-top: 200px;
-  background
 }
 
 h1 {
-    font-size: 24px;
-    padding: 20px;
-    text-align: center;
+  font-size: 24px;
+  padding: 20px;
+  text-align: center;
 }
 
 form {
 }
 
+img {
+  margin-top: 10px;
+}
 input {
   display: block;
   margin: 30px auto;
 }
-@media (min-width: 800px) {
-    header {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        justify-content: space-between;
-        margin: 20px 50px;
-    }
 
-    ul {
-        display: flex;
-        margin-right: 100px;
-    }
-    li {
-        margin-right: 20px;
-        padding: 20px
-    }
+.card {
+  border: 1px solid grey;
+  text-align: center;
+  margin: 20px 0;
+}
 
+.title {
+  background: ivory;
+  padding: 20px 120px;
+}
+//Desktop
+@media (min-width: 700px) {
+  header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+  }
+
+  ul {
+    display: flex;
+    margin-right: 100px;
+  }
+  li {
+    margin-right: 20px;
+    padding: 20px;
+  }
 }

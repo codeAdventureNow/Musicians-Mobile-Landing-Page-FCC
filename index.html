@@ -10,13 +10,13 @@
  
         <header id="header">
         <!-- Logo -->
-            <img width="200" src='assets/logo.jpg' ="header-img" />
+            <img width="200" src='assets/logo.jpg' id="header-img" />
             <nav id="nav-bar">
                 <ul>
                 <!--TODO When you click a .nav-link button in the nav element, you are taken to the corresponding section of the landing page -->
-                <li class="nav-link"><a>Our Offer</a></li>
-                <li class="nav-link"><a>Watch Us</a></li>
-                <li class="nav-link"><a>Pricing</a></li>
+                <li href='#our-offer' class="nav-link"><a >Our Offer</a></li>
+                <li href='#watch-us' class="nav-link"><a >Watch Us</a></li>
+                <li href="#pricing"  class="nav-link"><a >Pricing</a></li>
                 </ul>
             </nav>
         </header>
@@ -28,11 +28,42 @@
             <input type="submit" id="submit" />
         </form>
         
-        <section>
-            <video id="video" width="320" height="240">
-                <source src="https://youtu.be/1YPJ7pvrvtU" />
-            </video>
+        
+        <section  id="watch-us">
+            <iframe width="320" height="180" src="https://www.youtube.com/embed/1YPJ7pvrvtU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </section>
+        <section id="our-offer">
+            <h3>Lessons that come to you!</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, tempore distinctio deleniti pariatur ducimus quae ipsam iste dolore quasi incidunt quo soluta similique laboriosam architecto quam eligendi consequuntur consectetur quibusdam nemo repudiandae odit hic ipsum? Sequi incidunt modi natus dolore!</p>
+        </section>
+        <section id="pricing">
+            <div class="card">
+                <div class="title"><p>Guitar Lessons</p></div>
+                <h4>$100</h4>
+                <p>In Home</p>
+                <p>On time</p>
+                <p>Pro Styles</p>
+                <button>Select</button>
+            </div>
+            <div class="card">
+                <div class="title"><p>Oboe Lessons</p></div>
+                <h4>$120</h4>
+                <p>In Home</p>
+                <p>On time</p>
+                <p>Pro Styles</p>
+                <button>Select</button>
+            </div>
+            <div class="card">
+                <div class="title"><p>Sitar Lessons</p></div>
+                <h4>$120</h4>
+                <p>In Home</p>
+                <p>On time</p>
+                <p>Pro Styles</p>
+                <button>Select</button>
+            </div>
+            
+
         </section>
     </div>
-  </body>
+</body>
 </html>
